@@ -34,7 +34,7 @@ contract MarketSentiment {
     }
 
     modifier hasNotVoted(string memory _crypto){
-        require(Cryptos[_crypto].voters[msg.sender], "You have already voted for this coin");
+        require(!Cryptos[_crypto].voters[msg.sender], "You have already voted for this coin");
         _;
     }
 
