@@ -1,6 +1,6 @@
 # Crypto Vote.
 
-A Decentralised App using Web3 Programming.
+A Decentralised App to get market sentiments for various crypto-currencies regarding their value in future using Web3 Programming.
 
 ## Tech Stack :computer:
 1. Solidity : Language for writing Smart Contracts.
