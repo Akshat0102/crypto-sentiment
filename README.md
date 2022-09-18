@@ -4,8 +4,8 @@ A Decentralised App to get market sentiments for various crypto-currencies regar
 
 ## Tech Stack :computer:
 1. Solidity : Language for writing Smart Contracts.
-2. Moralis : For Web3 API Calls and syncing smart contracts.
-3. HardHat : For writing, Compiling and Verifying a Solidity Smart Contract.
+2. Moralis : For Web3 API calls and syncing smart contracts.
+3. HardHat : For writing, compiling, deploying and verifying a solidity smart contract.
 4. ReactJS : For creating single page frontend for the web application.
 5. Web3UIKit : UI library for Web3 Applications.
 
