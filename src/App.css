@@ -19,9 +19,7 @@
   padding: 5px;
   display: flex;
   justify-content: space-between;
-
   align-items: center;
-
 }
 
 .logo{
@@ -38,7 +36,7 @@
   height:150px;
   display: flex;
   justify-content: center;
-  width: 600px;
+  width: 80%;
   margin: auto;
   font-size: 30px;
   font-weight: 600;
