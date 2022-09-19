@@ -81,7 +81,7 @@ const Coin = ({ perc, setPerc, token, setModalToken, setVisible }) => {
                     <CustomButton
                         onClickHandler={() => {
                             if (isAuthenticated) {
-                                vote(false)
+                                vote(true)
                             } else {
                                 alert("Authenticate to Vote")
                             }
