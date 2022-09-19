@@ -1,0 +1,45 @@
+.homepage {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-wrap{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructions {
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructions p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.list {
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.esIUJu {
+    background-color: #202c37 !important;
+    width: 40vw !important;
+    height: 450px;
+}

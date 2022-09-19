@@ -1,53 +1,15 @@
-
-.list{
-  width:90%;
-  margin: auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 150px;
-  row-gap: 50px;
+@font-face {
+  font-family: Ubuntu-Title;
+  src: url(assets/fonts/Ubuntu-Title.ttf);
 }
 
-
-.header {
-  height: 100px;
-  width: 90%;
-  margin: auto;
-  max-width: 1200px;
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo{
-  display: flex;
-  gap:10px;
-  font-size: 40px;
-  font-weight: 600;
-  color: white;
-  align-items: center;
-}
-
-.instructions{
-  margin-top: 50px;
-  height:150px;
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  margin: auto;
-  font-size: 30px;
-  font-weight: 600;
-  color: white;
-  text-align: center;
-  line-height: 50px;
-}
-
-
-.sc-kTvvXX {
-  background-color: #202c37 !important;
-  width: 40vw !important;
-  height: 450px;
+.App {
+  height: 100vh;
+  width: 100vw;
 }
