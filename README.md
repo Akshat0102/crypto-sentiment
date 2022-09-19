@@ -9,6 +9,9 @@ A Decentralised App to get market sentiments for various crypto-currencies regar
 4. ReactJS : For creating single page frontend for the web application.
 5. Web3UIKit : UI library for Web3 Applications.
 
+## Smart Contract :ledger:
+### View the verified smart-contract at : https://bit.ly/3UduwXs 
+
 ## Contact Me :speech_balloon:
-### Mail me at: cruise.akshat@gmail.com for more details
+### Mail me at : cruise.akshat@gmail.com for more details
 
