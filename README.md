@@ -10,7 +10,7 @@ A Decentralised App to get market sentiments for various crypto-currencies regar
 5. Web3UIKit : UI library for Web3 Applications.
 
 ## Smart Contract :ledger:
-### View the verified smart-contract at : https://bit.ly/3UduwXs 
+### View the verified smart-contract at : https://bit.ly/3qMl6Vg 
 
 ## Contact Me :speech_balloon:
 ### Mail me at : cruise.akshat@gmail.com for more details
