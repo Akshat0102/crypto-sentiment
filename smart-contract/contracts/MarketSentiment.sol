@@ -2,9 +2,8 @@
 pragma solidity ^0.8.9;
 
 contract MarketSentiment {
-    address public owner; //account owner address
-
-    string[] public cryptoArray; //array containing cryptos set by owner
+    address public owner; 
+    string[] public cryptoArray; 
 
     constructor() {
         owner = msg.sender;
@@ -12,14 +11,14 @@ contract MarketSentiment {
 
     //any crypto added will have following properties
     struct crypto {
-        bool exists; //if it exists
+        bool exists;
         uint32 up; //for upvotes
         uint32 down; //for downvotes
         mapping(address => bool) voters; //for containing list of voters who have voted
     }
 
-    //event to notify moralis for any events happening with this smart contract
-    event cryptoUpdated(uint256 up, uint256 down, address voter, string crypto);
+    //event to notify moralis for any txns happening with this smart contract
+    event cryptoUpdated(uint32 up, uint32 down, address voter, string crypto);
 
     mapping(string => crypto) private Cryptos; //for mapping each crypto with it's properties
 
@@ -53,8 +52,7 @@ contract MarketSentiment {
         }else{
             cry.down++;
         }
-
-        emit cryptoUpdated(cry.up, cry.down, msg.sender, _crypto);  //emitting the event for moralis
+        emit cryptoUpdated(cry.up, cry.down, msg.sender, _crypto);  
     } 
 
     function getVotes(string memory _crypto) public view doesExists(_crypto) returns(uint32 up, uint32 down){
