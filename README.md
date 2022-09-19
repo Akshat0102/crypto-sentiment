@@ -1,4 +1,4 @@
-# Crypto Vote.
+# Crypto Sentiment.
 
 A Decentralised App to get market sentiments for various crypto-currencies regarding their value in future using Web3 Programming.
 
